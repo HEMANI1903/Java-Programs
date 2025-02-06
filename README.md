@@ -59,7 +59,85 @@ The following exchange rates are hardcoded in the program:
 
 1 PKR = 0.310 INR
 
+#Stone-Paper-Scissors Game
 
+Overview
+
+This is a simple Java-based Stone-Paper-Scissors game where a user competes against the computer (bot). The bot randomly selects an option, and the user inputs their choice. The winner is determined based on the standard rules of the game.
+
+How to Play
+
+Run the Java program.
+
+You will be presented with three choices:
+
+1 for Stone
+
+2 for Paper
+
+3 for Scissors
+
+Enter your choice as a number (1, 2, or 3).
+
+The bot will randomly generate its choice.
+
+The result will be displayed:
+
+"User Wins" if the user wins.
+
+"Bot Wins" if the bot wins.
+
+"Draw" if both select the same option.
+
+Rules
+
+Stone beats Scissors
+
+Scissors beats Paper
+
+Paper beats Stone
+
+If both select the same option, the game results in a draw.
+
+Prerequisites
+
+Java Development Kit (JDK) installed
+
+A Java-compatible IDE or command-line interface
+
+How to Run the Game
+
+Save the Java file as Game.java.
+
+Open a terminal or command prompt and navigate to the file location.
+
+Compile the program using:
+
+javac Game.java
+
+Run the program using:
+
+java Game
+
+Follow the on-screen instructions to play.
+
+Example Output
+
+     WELCOME
+
+1.Stone 2.Paper 3.Scissor
+Enter option:
+2
+User: Paper Bot: Stone
+User Wins
+
+Enhancements
+
+Add a loop to allow multiple rounds without restarting the program.
+
+Keep track of user and bot scores.
+
+Improve input validation to handle incorrect inputs gracefully.
 
 
 
