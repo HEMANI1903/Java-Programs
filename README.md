@@ -1,5 +1,5 @@
 # Java-Programs
-Currency Converter
+# Currency Converter
 
 Description
 
@@ -59,7 +59,7 @@ The following exchange rates are hardcoded in the program:
 
 1 PKR = 0.310 INR
 
-#Stone-Paper-Scissors Game
+# Stone-Paper-Scissors Game
 
 Overview
 
